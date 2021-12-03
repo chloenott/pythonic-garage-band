@@ -48,4 +48,9 @@ class Drummer:
     def __repr__(self):
         return f"Drummer instance. Name = {self.name}"
 
+    @staticmethod
+    def get_instrument():
+        return "drums"
+
+
 
