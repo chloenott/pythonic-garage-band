@@ -1,5 +1,5 @@
 class Band:
-    
+
     def __init__(self, name, members):
         self.name = name
         self.members = members
@@ -17,6 +17,10 @@ class Guitarist:
 
     def __repr__(self):
         return f"Guitarist instance. Name = {self.name}"
+
+    @staticmethod
+    def get_instrument():
+        return "guitar"
 
 class Bassist:
 
