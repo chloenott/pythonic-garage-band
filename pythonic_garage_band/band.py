@@ -33,6 +33,10 @@ class Bassist:
     def __repr__(self):
         return f"Bassist instance. Name = {self.name}"
 
+    @staticmethod
+    def get_instrument():
+        return "bass"
+
 class Drummer:
 
     def __init__(self, name):
